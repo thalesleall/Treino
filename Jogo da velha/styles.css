@@ -12,8 +12,27 @@
     justify-content: space-around;
     display: flex;
     align-items: center;
-    background-color: linear;
+    background: linear-gradient(#21bf4b, );
+    flex-direction: column;
 }
+#resultados{
+    display: flex;
+    width: fit-content;
+    gap: 45px;
+    height: 30px;
+    justify-content: center;
+    border: 1px solid red;
+    padding: 5px;
+}
+
+
+#resultados span{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
 
 #container{
     width: 500px;
@@ -21,4 +40,26 @@
     border: 1px black solid;
     margin: 0 auto;
     background-color: white;
+    align-items: center;
+    flex-direction: column;
+}
+
+#button{
+    margin: auto;
+}
+
+table{
+    border: 1px solid red ;
+    margin: 25px 25px;
+    width: 450px;
+    height: 450px;
+}
+table tbody tr th button{
+    width: 145px;
+    height: 145px;
+    transition: 0.5s;
+    border: none;
+}
+table tbody tr th button p{
+    font-size: 50px;
 }
