@@ -1,0 +1,70 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Rajdhani:wght@500&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page{
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: url("./assets/bg-primeirafoto.jpg") no-repeat fixed top center/cover;
+    
+}
+#container{
+    padding: 50px;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 100px;
+    width: fit-content;
+    height: fit-content;
+    backdrop-filter: blur(10px);
+    color: white;
+    
+    border-radius: 50px;
+    text-align: center;
+}
+#buttons{
+    margin: 10px auto;
+}
+#sim{
+    padding: 10px 45px;
+    border-radius: 10px;
+    border: 10px red;
+    background:rgba(255, 255, 255 , 0.1);
+    color: white;
+    transition: 0.5s;
+}
+#sim:hover{
+    background:rgb(225, 4, 225);
+    color: black;
+}
+#nao{
+    padding: 10px 45px;
+    border-radius: 10px;
+    border: 10px red;
+    background:rgba(255, 255, 255 , 0.1);
+    color: white;
+    transition: 0.5s;
+}
+#nao:hover{
+    background: rgba(255, 255, 255, 0);
+    color:rgba(0, 0, 0, 0);
+}
+
+#container a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+#container a:hover{
+    text-decoration: underline;
+}
